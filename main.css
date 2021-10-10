@@ -1,0 +1,123 @@
+/*Clase para imagen producto*/
+.productos {
+  width: 30%;
+  height: 30%; }
+
+@supports (object-fit: cover) {
+  .imagenmenu {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center; } }
+
+.imagen-ppales {
+  height: 160px;
+  width: 160px;
+  border-style: solid;
+  transition: all 0,5s; }
+
+.imagen-ppales:hover {
+  transform: scale(1.3); }
+
+
+/*Etiqueta Estilo general*/
+body {
+  background-color: #443a3a;
+  font-family: "New Tegomin"; }
+
+.navcolor {
+  color: #faf8fa; }
+
+/*Etiqueta Estilo titulos*/
+h1 {
+  color: #faf8fa;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px; }
+
+h2 {
+  padding-left: 10px;
+  color: aliceblue; 
+}
+
+h3 {
+  color: antiquewhite;
+  font-size: 30px;
+  padding-left: 20px; }
+
+h4 {
+  font-size: 20px;
+  background-color: #a79ba7;  
+  text-align: center; }
+
+/*Clase para el menu*/
+.menu {
+  /*background-color: #292149;*/
+  margin-top: -20px;
+  padding: 10px; }
+
+/*Clase para alinear items del menu - con flexbox*/
+.navega {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px; }
+
+/*Etiqueta Estilo footer*/
+footer {
+  font-family: "New Tegomin";
+  font-size: 150%;
+  background-color: #4e3434;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  position: sticky; }
+  footer a {
+    vertical-align: top; }
+
+/*Boton "Volver al Inicio"*/
+.botonInicio {
+  text-align: right;
+  font-size: 30px;
+  margin: 0px; }
+
+/*Anclas*/
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 10px; }
+
+.etiqueta-compra {
+  padding-bottom: 5px;
+  background-color: #30b1fc; }
+
+.logo {
+  width: 10%;
+  height: 10%; }
+
+fieldset {
+  background-image: url("Imagenes/formu.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: 600;
+  display: list-item; }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+  /*elementos en el carrito*/
+.prodCarrito{
+  color: aliceblue;
+  background-color: rgb(46, 22, 70);
+}
+.imagen-carrito{
+  height: 60px;
+  width: 60px;
+  border-style: solid;
+  margin-bottom: 5px;
+}
+
+
+
